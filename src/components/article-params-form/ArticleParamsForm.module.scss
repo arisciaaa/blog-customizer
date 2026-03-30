@@ -30,3 +30,18 @@
 	justify-content: space-between;
 	margin-top: auto;
 }
+
+.field {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	margin-bottom: 50px;
+}
+
+.field:last-of-type {
+	margin-bottom: 0;
+}
+
+.title {
+	margin-bottom: 50px;
+}
